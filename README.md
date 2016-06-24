@@ -8,7 +8,10 @@ Prepared By Lance Sims
 * [Selenium]
 * [Jasmine]
 * [lodash]
+
 ### Installation
+* Run the following command
+
 ```sh
 $ npm test
 ```
