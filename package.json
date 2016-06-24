@@ -1,0 +1,19 @@
+{
+  "name": "home-away-e2e",
+  "version": "0.0.1",
+  "description": "End-to-end tests against store.demoqa.com",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "protractor": "^3.3.0"
+  },
+  "devDependencies": {
+    "protractor": "^3.3.0",
+    "q": "^1.4.1"
+  },
+  "scripts": {
+    "test": "npm install && ./node_modules/protractor/bin/webdriver-manager update --standalone && ./node_modules/protractor/bin/protractor protractor.conf.js"
+  },
+  "author": "Lance Sims",
+  "license": "ISC"
+}
